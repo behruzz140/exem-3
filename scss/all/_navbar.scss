@@ -1,0 +1,71 @@
+.all-assets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.nav-links > li:hover {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: #111827;
+  color: #fff;
+  padding: 9px;
+  border-radius: 50px;
+}
+
+.btn-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  gap: 20px;
+}
+
+.download-cv {
+  width: Hug (136px);
+  height: Hug (36px);
+  padding: 6px, 16px, 6px, 16px;
+  border-radius: 12px;
+  gap: 8px;
+  background-color: #111827;
+  color: white;
+  padding: 6px;
+}
+
+.download-cv:hover {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #fff;
+  color: #111827;
+  border: 2px solid black;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  padding-bottom: 10pxx;
+  background-color: #adaaaa;
+  padding-bottom: 16px;
+}
+
+
+#drop-down{
+  display: none;
+}

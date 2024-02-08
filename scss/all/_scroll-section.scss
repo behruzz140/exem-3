@@ -1,0 +1,62 @@
+.dilshod_aka {
+  width: Fill (373.33px);
+  height: Fill (428px);
+  padding: 48px;
+  border-radius: 12px;
+  border: 0px, 1px, 0px, 0px;
+  gap: 24px;
+  box-shadow: 2px 4px 4px 2px #0000000f;
+  box-shadow: 2 px 8px 6px 2px #00000012;
+
+  .user-edit{
+    margin: 0 auto;
+}
+}
+
+.dilshod_aka:hover{
+    transition: all 0.7s ease-in-out;
+    transform: scale(1.1);
+}
+
+.paymart{
+    padding-top: 19px;
+  width: 277.33px;
+  height: 120px;
+  color: #4B5563;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-p{
+  width: 277.33px;
+  height: 120px;
+  color: #4B5563;
+  display: flex;
+  justify-content: center;
+}
+
+
+.slider-h3 {
+  width: 277.33px;
+  height: 28px;
+  color: #111827;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+margin-top: 53px;
+}
+
+
+.slides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+#founderla{
+ margin-top: 7%;
+padding-bottom: 7%;
+background-color: #d9d9da51;
+}

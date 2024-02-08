@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    max-width:100%;
+    height:auto;
+  }
+  
+  .carousel-cell {
+    width:25%;
+    padding:1rem;
+  } 
+  
+  @media (max-width:700px){
+    caousel-cell{
+      width:33.33%;
+    }
+  }
+  
+  @media (max-width:600px){
+    caousel-cell{
+      width:50%;
+    }
+  }
+  
+  @media (max-width:500px){
+    caousel-cell{
+      width:100%;
+    }
+  }

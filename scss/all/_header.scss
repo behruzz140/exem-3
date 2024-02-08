@@ -1,0 +1,318 @@
+@import "https://unpkg.com/@zaydek/duomo@0.7.0-rc.35/dist/full.css";
+:root {
+  --bg-color: #137dff;
+  --strong-text: #bedbfe;
+  --text: #7bb6ff;
+  --primary-card: #ffffff;
+  --secondary-card: #4c9cff;
+  --primary-button: #ffffff;
+  --small-button: #5ca5fe;
+  --shadow: #2f8cff;
+  --sea-green: #91ffa9;
+  --seashell-blue: #97ffec;
+  --urchent-green: #8aff04;
+}
+
+header {
+  width: 100%;
+  .nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    top: 0;
+    gap: 490px;
+    background-color: #d1cece;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      font-style: 24px;
+      cursor: pointer;
+    }
+
+    &__list {
+      display: flex;
+      gap: 50px;
+      list-style-type: none;
+
+      &--item {
+        text-transform: uppercase;
+
+        &-link {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.nav__list--item-link:hover {
+  background-color: #7b7c7c;
+
+  padding: 6px;
+  border-radius: 50px;
+  transition: all 0.7s ease;
+}
+.btn-a {
+  background-color: #111827;
+  width: 136px;
+  height: 36px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  gap: 8px;
+  color: #fff;
+}
+
+.nav__list--item-link {
+  color: #000000;
+
+}
+.header-p3 {
+  display: flex;
+  gap: 0.2%;
+  margin-top: 1%;
+  color: #4f4d4d;
+}
+
+.header-p2 {
+  display: flex;
+  gap: 0.2%;
+  margin-top: 5%;
+  color: #4f4d4d;
+}
+.header_icons {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.mukhriddin-dev {
+  width: Fill (1, 440px);
+  height: Hug (552px);
+  padding: 96px, 80px, 96px, 80px;
+  justify-content: space-between;
+}
+
+.full-stack {
+  width: 768px;
+  height: 72px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #817f7f;
+}
+
+.all-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.right--side__header {
+  box-shadow: 28px 28px rgb(210, 208, 208);
+  margin-bottom: 125px;
+}
+.nav__logo {
+  margin-left: 144px;
+}
+
+.right--side__header:hover {
+  box-shadow: none !important;
+  transition: all 0.7s ease-in-out;
+}
+
+.about-divi {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.header_icons-active1,
+.header_icons-active2,
+.header_icons-active3 {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  @-ms-keyframes spin {
+    from {
+      -ms-transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spin {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+
+
+.controls {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  color: white;
+  font-weight: 300;
+}
+
+label {
+  cursor: pointer;
+}
+
+.dock {
+  --spacing: 1.5rem;
+  overflow: hidden;
+  resize: horizontal;
+  width: 422px;
+  min-width: 344px;
+  max-width: calc(100% - 2rem);
+  max-height: calc(56px + (2 * var(--spacing)));
+}
+
+#controlxx {
+  display: flex;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  overflow: auto;
+  background: hsl(0 0% 40% / 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 524px;
+  clip-path: inset(0 0 0 0 round 24px);
+  scroll-snap-type: x mandatory;
+  scrollbar-color: hsl(0 0% 10% / 0.5) transparent;
+  scrollbar-width: thin;
+  box-shadow: 0 1px hsl(0 0% 100% / 0.5) inset;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+}
+
+.control-collection {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(hsl(0 0% 100% / 0.15), #0000), hsl(0 0% 4%);
+  border-radius: 8px;
+  flex: 1 0 auto;
+  scroll-snap-align: center;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 -1px hsl(0 0% 0% / 0.5) inset, 0 2px 4px hsl(0 0% 0% / 0.5),
+    0 1px hsl(0 0% 100% / 0.5) inset;
+}
+
+a svg {
+  width: 65%;
+  color: white;
+  fill: white;
+}
+
+:root:has(#direction:checked) #controlxx {
+  flex-direction: column;
+  scroll-snap-type: y mandatory;
+}
+:root:has(#direction:checked) .dock {
+  flex-direction: column;
+  min-width: 0;
+  max-height: calc(100vh - 2rem);
+  min-height: 340px;
+  width: unset;
+  resize: vertical;
+  max-width: calc(56px + (var(--spacing) * 2));
+}
+
+@supports (animation-timeline: scroll()) {
+  .control-collection {
+    animation-name: scale, scale;
+    // animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-direction: normal, reverse;
+    animation-timeline: view(inline);
+    // animation-range: entry 0 entry 150%, exit -50% exit 100%;
+  }
+}
+:root:has(#direction:checked) a {
+  animation-timeline: view();
+}
+
+@keyframes scale {
+  0% {
+    scale: 0.15;
+  }
+}
+
+.navbar-btn {
+  width: Hug (136px);
+  height: Hug (36px);
+  border-radius: 12px;
+  gap: 8px;
+  background-color: #7b7c7c;
+  padding: 10px;
+  margin-top: -8px;
+  color: white;
+}
+
+.navbar-btn:hover {
+  background-color: #ffffff;
+  color: #111827;
+  transition: all 0.7s ease;
+}
+
+
+.dark-btn{
+  border-radius: 50px;
+  border: none;
+  transition: all 0.7s ease;
+  color: #111827;
+  width: 30px;
+  height: 25px;
+}
